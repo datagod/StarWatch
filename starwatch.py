@@ -1,3 +1,38 @@
+"""
+================================================================================
+ Log Watcher for Pi-Star Logs
+================================================================================
+
+ Description:
+   This script monitors a specified directory for changes to log files using 
+   the watchdog library. When changes are detected, it displays new log entries 
+   in real-time, with each file assigned a unique color for easy differentiation. 
+   Filenames are aligned for clean output formatting. Ideal for monitoring 
+   Pi-Star logs on Raspberry Pi systems.
+
+ Features:
+   - Uses watchdog to detect real-time file modifications.
+   - Assigns color-coded output to each log file using colorama.
+   - Aligns log output by file name for better readability.
+   - Automatically adapts to the longest filename for alignment.
+
+ Author:
+   Datagod
+   ChatGPT
+
+ Requirements:
+   - Python 3.x
+   - watchdog (`pip install watchdog`)
+   - colorama (`pip install colorama`)
+
+ Usage:
+   Update the `log_directory` variable with the path to your log folder.
+   Run the script: `python3 log_watcher.py`
+
+   Press Ctrl+C to stop monitoring.
+
+================================================================================
+"""
 
 
 
