@@ -29,10 +29,9 @@ You can point it at any log directory, not just `/var/log/pi-star`.
 ---
 
 ## 👨‍💻 Author
+Datagod
+ChatGPT 4o
 
-**Datagod**
-
-**ChatGPT 4o**
 ---
 
 ## 🧰 Requirements
