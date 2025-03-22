@@ -31,7 +31,7 @@ You can point it at any log directory, not just `/var/log/pi-star`.
 ## 👨‍💻 Author
 
 **William McEvoy**
-
+**ChatGPT 4o**
 ---
 
 ## 🧰 Requirements
